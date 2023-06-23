@@ -1,0 +1,177 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ufc_button {
+  background-color: #d20a0a;
+  border: 0px;
+  padding: 15px;
+  margin: 5px;
+  width: 300px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+
+.ufc_button:hover {
+  border-radius: 5px;
+  background-color: red;
+}
+
+.ok {
+  max-width: 35px;
+}
+
+.ko {
+  max-width: 45px;
+  display: none;
+}
+
+.ufc_button:hover .ok {
+  display: none;
+}
+
+.ufc_button:hover .ko {
+  display: inline;
+}
+
+.ufc_button .ko:hover {
+  transform: rotate(360deg);
+}
+
+.logo:hover,
+.ufc_button:hover .ko {
+  transition: transform 0.8s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(20deg);
+}
+
+
+.login {
+  background-color: #ff2d26;
+  background: linear-gradient(135deg, #e9191255 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #e91912 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #e9191255 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #e91912 25%, #ff2d26 25%) 0px 0/ 20px 20px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+
+form {
+  width: 100%;
+}
+
+
+.no-padding {
+  padding: 0px;
+}
+
+.row.login {
+  width: 50%;
+}
+
+input {
+  width: 100%;
+  background-color: #d20a0a;
+  border: 0px;
+  margin: 5px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.title {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.padding-l-10 {
+  padding-left: 10%;
+}
+
+.profil_picture {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+  background-color: #000;
+}
+
+.matching_tools {
+  display: flex;
+}
+
+.unmatch,
+.match {
+  width: 50%;
+  text-align: center;
+  background-color: #f8261f;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.unmatch {
+  width: 50%;
+  text-align: center;
+  background-color: #f8261f;
+}
+
+.match {
+  border-right: 1px solid white;
+}
+
+.card_img {
+  width: 100%;
+}
+
+
+.match_name {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #242424;
+  margin-top: 5px;
+  font-size: 25px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.match {
+  border-radius: 0px 0px 0px 15px;
+}
+
+.unmatch {
+  border-radius: 0px 0px 15px 0px;
+}
+
+#main {
+  padding-bottom: 5%;
+}
+
+.delete_account{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
